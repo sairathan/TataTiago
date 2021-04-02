@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         super.viewDidAppear(true)
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+    }
+    
 }
 
